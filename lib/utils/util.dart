@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-
+/// Description: 字符串工具类
+/// Time       : 02/10/2023 Friday
+/// Author     : liuyuqi.gov@msn.cn
 class Util {
   // 是否是空字符串
   static bool isEmptyString(String str) {
@@ -43,12 +45,12 @@ class Util {
     final String regex = '^[1-9][0-9]{4,9}\$';
     return matches(regex, input);
   }
-
+/// 验证是否是微信ID 
   static bool validWeChatId(String input) {
     final String regex = '^[a-zA-Z]{1}[-_a-zA-Z0-9]{5,19}\$';
     return matches(regex, input);
   }
-
+/// 正则验证是否是QQ邮箱
   static bool validQQMail(String input) {
     final String regex = '^[1-9][0-9]{4,9}@qq\.com\$';
     return matches(regex, input);

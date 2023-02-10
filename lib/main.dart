@@ -1,14 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-
 import 'package:fluro/fluro.dart';
 import 'package:provider/provider.dart';
-
 import 'package:flutter_wechat/constant/style.dart';
-
 import 'package:flutter_wechat/routers/application.dart';
 import 'package:flutter_wechat/routers/routers.dart';
-
 import 'package:flutter_wechat/providers/tab_bar_provider.dart';
 import 'package:flutter_wechat/providers/keyboard_provider.dart';
 
